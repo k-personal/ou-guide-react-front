@@ -66,7 +66,7 @@ function SubjectResult(props) {
                         Course Code :{" "}
                         <strong style={{ color: "#79cf29" }}>
                           {" "}
-                          {subject.code}
+                          {subject.code.toUpperCase()}
                         </strong>
                       </Typography>
                     ) : (
